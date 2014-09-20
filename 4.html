@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html>
+<head>
+	<style>
+#child {
+	width: 50%;
+	margin: auto;
+	position: absolute;
+	top: 50%; left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+}
+	</style>
+	<title>
+		Shri1 variant 1(table perent)
+	</title>
+</head>
+<body>
+
+
+<div id="child">
+	Метод ценрирования с помощью трансформаций.
+	<br>
+	Преимущества: Изменяемая высота  и ширина, нужен только один блок и минимум стилей к нему.
+	<br>
+	Не работает в IE 8, использование префиксов, может мешать работе других эффектов с transform, в некоторых случаях при рендеринге размываются края блока и текст.
+</div>
+
+
+</body>
+</html>

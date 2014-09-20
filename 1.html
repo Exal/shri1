@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html>
+<head>
+	<style>
+#table {
+	display: table;
+	width: 1000px;
+	height: 600px;
+}
+#child {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	padding: 30px;
+}
+
+	</style>
+	<title>
+		Shri1 variant 1(table perent)
+	</title>
+</head>
+<body>
+
+<div id="table">
+	<div id="child">
+		Метод ценрирования с помощью таблиц.
+		<br>
+		Минусы: нужно создать таблицу с заданной высотой и шириной и одной ячейкой, мы не можем влиять размеры центрированного блока напрямую, но можно задать padding'и для дочернего элемента.
+		Он не работает в старых версиях IE. Приходится использовать свойство display: inline-block для вложенного контейнера.
+	</div>
+</div>
+
+</body>
+</html>
